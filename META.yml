@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                String-Clean
-version:             0.02
+version:             0.021
 abstract:            use data objects to clean strings
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.36
@@ -8,6 +8,7 @@ distribution_type:   module
 requires:     
     Carp::Assert::More:            0
     Test::More:                    0
+    Test::Pod::Coverage:           0
     YAML:                          0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.2.html
