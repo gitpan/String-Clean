@@ -1,4 +1,7 @@
 package String::Clean::XSS;
+BEGIN {
+  $String::Clean::XSS::VERSION = '0.03';
+}
 
 #use base qw{Exporter String::Class};
 use Exporter qw{import};
