@@ -25,9 +25,9 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Carp::Assert::More' => '0',
     'Test::More' => '0',
-    'YAML' => '0'
+    'YAML::Any' => '0'
   },
-  'VERSION' => '0.03',
+  'VERSION' => '0.031',
   'test' => {
     'TESTS' => 't/*.t'
   }

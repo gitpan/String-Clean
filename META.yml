@@ -17,5 +17,5 @@ name: String-Clean
 requires:
   Carp::Assert::More: 0
   Test::More: 0
-  YAML: 0
-version: 0.03
+  YAML::Any: 0
+version: 0.031

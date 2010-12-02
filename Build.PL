@@ -18,7 +18,7 @@ my %module_build_args = (
     'NOTBENH <NOTBENH@cpan.org>'
   ],
   'dist_name' => 'String-Clean',
-  'dist_version' => '0.03',
+  'dist_version' => '0.031',
   'license' => 'perl',
   'module_name' => 'String::Clean',
   'recommends' => {},
@@ -26,7 +26,7 @@ my %module_build_args = (
   'requires' => {
     'Carp::Assert::More' => '0',
     'Test::More' => '0',
-    'YAML' => '0'
+    'YAML::Any' => '0'
   },
   'script_files' => []
 );

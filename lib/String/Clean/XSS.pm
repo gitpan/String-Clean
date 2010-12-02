@@ -1,6 +1,6 @@
 package String::Clean::XSS;
 BEGIN {
-  $String::Clean::XSS::VERSION = '0.03';
+  $String::Clean::XSS::VERSION = '0.031';
 }
 
 #use base qw{Exporter String::Class};
